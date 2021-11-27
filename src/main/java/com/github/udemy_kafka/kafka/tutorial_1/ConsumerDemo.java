@@ -22,7 +22,7 @@ public class ConsumerDemo {
     public static CallbackDemoImpl callback = new CallbackDemoImpl(logger);
 
     public static void main(String[] args) {
-        String groupId = "foo_bar";
+        String groupId = "my-first-app";
         String topic = "first_topic";
 
         // creates consumer configs
