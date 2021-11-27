@@ -1,4 +1,4 @@
-package com.github.udemy_kafka.kafka.tutorial_1.utils;
+package com.github.udemy_kafka.kafka.tutorial_1.util;
 
 import org.apache.kafka.clients.producer.Callback;
 import org.apache.kafka.clients.producer.RecordMetadata;

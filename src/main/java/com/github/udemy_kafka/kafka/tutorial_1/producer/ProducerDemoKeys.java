@@ -1,6 +1,6 @@
-package com.github.udemy_kafka.kafka.tutorial_1;
+package com.github.udemy_kafka.kafka.tutorial_1.producer;
 
-import com.github.udemy_kafka.kafka.tutorial_1.utils.CallbackDemoImpl;
+import com.github.udemy_kafka.kafka.tutorial_1.util.CallbackDemoImpl;
 import org.apache.kafka.clients.producer.KafkaProducer;
 import org.apache.kafka.clients.producer.ProducerConfig;
 import org.apache.kafka.clients.producer.ProducerRecord;

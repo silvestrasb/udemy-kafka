@@ -1,6 +1,6 @@
-package com.github.udemy_kafka.kafka.tutorial_1;
+package com.github.udemy_kafka.kafka.tutorial_1.consumer;
 
-import com.github.udemy_kafka.kafka.tutorial_1.utils.CallbackDemoImpl;
+import com.github.udemy_kafka.kafka.tutorial_1.util.CallbackDemoImpl;
 import org.apache.kafka.clients.consumer.ConsumerConfig;
 import org.apache.kafka.clients.consumer.ConsumerRecord;
 import org.apache.kafka.clients.consumer.ConsumerRecords;
@@ -13,11 +13,11 @@ import java.time.Duration;
 import java.util.Arrays;
 import java.util.Properties;
 
-public class ConsumerDemoGroups {
+public class ConsumerDemo {
 
     public static String BOOTSTRAP_SERVERS = "127.0.0.1:9092";
 
-    public static Logger logger = LoggerFactory.getLogger(ConsumerDemoGroups.class);
+    public static Logger logger = LoggerFactory.getLogger(ConsumerDemo.class);
 
     public static CallbackDemoImpl callback = new CallbackDemoImpl(logger);
 
@@ -50,6 +50,7 @@ public class ConsumerDemoGroups {
                 logger.info("Offset: {}", record.offset());
             }
         }
+
 
     }
 }
